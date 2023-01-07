@@ -1,0 +1,31 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.container-fluid{
+    background:linear-gradient(135deg, #002387,#93f4da);
+    height:200px;
+}
+body {
+  
+    background: #fff;
+  }
+  h1{
+    padding-top: 55px;
+  }
+  .inside{
+    font-size: 20px;
+    font-weight: 500;
+  }
+  button{
+    margin-left: 650px;
+    margin-top:50px;
+    height: 30px;
+    width:120px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: rgb(255,184,28);
+  }
+  button:hover{
+    font-size: 17px;
+  }

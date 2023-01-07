@@ -1,0 +1,129 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.container-fluid{
+    background:linear-gradient(135deg, #002387,#93f4da);
+    height:200px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+}
+body {
+  
+    background: #fff;
+  }
+  .signup-form {
+    font-family: "Roboto", sans-serif;
+    width:650px;
+    margin:30px auto;
+    border-radius: 10px;
+    color:rgb(13,152,186);
+  }
+  .form-body {
+      padding:10px 40px;
+      color:#cccccc;
+    }
+    .form-group{
+      margin-bottom:20px;
+    }
+    .form-body .label-title {
+      color:rgb(13,152,186);
+      font-size: 17px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    .form-body .form-input {
+        font-size: 17px;
+        box-sizing: border-box;
+        width: 60%;
+        height: 34px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #757474;
+        text-align: left;
+        margin-bottom: 10px;
+        /* padding-bottom: 10px; */
+        border: 1px solid #cccccc;
+        border-radius: 4px;
+        background: white;
+        outline: none;
+    }
+    textarea{
+        max-width: 700px;
+        min-width: 100px;
+        min-height: 100px;
+        vertical-align: top;
+        color: #cccccc;
+    }
+    input[type="file"] {
+     outline: none;
+     cursor:pointer;
+     font-size: 17px;
+    }
+    .form-footer {
+     clear:both;
+    }
+    
+    label {
+        display: inline-block;
+        width: 200px;
+        text-align: left;
+    }
+    .signup-form .form-footer  {
+      /* background-color: #EFF0F1; */
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-top: 40px;
+      padding:10px 40px;
+      text-align: center;
+      /* border-top: 1px solid #cccccc; */
+    }
+    .form-footer span {
+      float:left;
+      margin-top: 10px;
+      margin-left: 40%;
+      color:rgb(10, 10, 10);  
+      font-style: italic;
+      font-weight: thin;
+    }
+    
+    .btn1{
+        padding:10px 20px;
+        background-color:rgb(13,152,186);
+       font-size:17px;
+       border:none;
+       margin-left: 40%;
+       border-radius:5px;
+       color:#bcf5e7;
+       cursor:pointer;
+    }
+    .btn2{
+        padding:10px 20px;
+        /* padding-left: 100px; */
+        margin-left: 250px;
+        margin-top: 30px;
+        background-color:rgb(13,152,186);
+       font-size:17px;
+       border:none;
+       float: center;
+       /* margin-left: 45%; */
+       border-radius:5px;
+       color:#bcf5e7;
+       cursor:pointer;
+    }
+    .btn3{
+        padding:10px 20px;
+        background-color:rgb(13,152,186);
+       font-size:17px;
+       border:none;
+       /* margin-left: 50%; */
+       border-radius:5px;
+       color:#bcf5e7;
+       cursor:pointer;
+    }
+    .btn:hover {
+      background-color: #165b9c;
+      color:white;
+    }
+   

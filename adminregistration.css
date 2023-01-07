@@ -1,0 +1,139 @@
+*{
+    padding: 0px;
+    margin:0px;
+}
+.container-fluid{
+    background:linear-gradient(135deg, #002387,#93f4da);
+    height:200px;
+}
+
+body {
+  
+    background: #fff;
+  }
+  .signup-form {
+    font-family: "Roboto", sans-serif;
+    width:650px;
+    margin:30px auto;
+    /* background:linear-gradient(rgb(93 188 194 1)); */
+    border-radius: 10px;
+    /* color:Rgba(93, 188,194,1); */
+    color:rgb(13,152,186);
+  }
+  .form-header  {
+    background-color: #EFF0F1;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .form-header h3 {
+    /* margin-top: 100px; */
+    font-size: 30px;
+    text-align:center;
+    
+    padding:15px 0;
+    border-bottom:1px solid #cccccc;
+  }
+  .form-body {
+      padding:10px 40px;
+      color:#666;
+    }
+    .form-group{
+      margin-bottom:20px;
+    }
+    .form-body .label-title {
+      color:rgb(13,152,186);
+      font-size: 17px;
+      font-weight: bold;
+    }
+    .form-body .form-input {
+        font-size: 17px;
+        box-sizing: border-box;
+        width: 100%;
+        height: 34px;
+        padding-left: 10px;
+        padding-right: 10px;
+        color: #333333;
+        text-align: left;
+        border: 1px solid #d6d6d6;
+        border-radius: 4px;
+        background: white;
+        outline: none;
+    }
+    .horizontal-group .left{
+      float:left;
+      width:49%;
+    }
+    .horizontal-group .right{
+      float:right;
+      width:49%;
+    }
+    input[type="file"] {
+     outline: none;
+     cursor:pointer;
+     font-size: 17px;
+    }
+    #range-label {
+     width:15%;
+     padding:5px;
+     background-color: #101011;
+     color:white;
+     border-radius: 5px;
+     font-size: 17px;
+     position: relative;
+     top:-8px;
+     border-color: rgb(13,152,186);
+    }
+    ::-webkit-input-placeholder {
+     color:#d9d9d9;
+    }
+    .form-footer {
+     clear:both;
+    }
+    .signup-form .form-footer  {
+      background-color: #EFF0F1;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      margin-top: 40px;
+      padding:10px 40px;
+      text-align: right;
+      border-top: 1px solid #cccccc;
+    }
+    .form-footer span {
+      float:left;
+      margin-top: 10px;
+      margin-left: 40%;
+      color:rgb(10, 10, 10);  
+      font-style: italic;
+      font-weight: thin;
+    }
+    .btn {
+       display:inline-block;
+       padding:10px 20px;
+       background-color:rgb(13,152,186);
+       font-size:17px;
+       border:none;
+       margin-left: 46%;
+       border-radius:5px;
+       color:#bcf5e7;
+       cursor:pointer;
+    }
+    .btn:hover {
+      background-color: #165b9c;
+      color:white;
+    }
+
+
+    input:focus:invalid{
+      border:1px solid red;
+    }
+    
+    input:focus:valid{
+      border:1px solid rgb(13,152,186);
+    }
+
+    /* .emo{
+        color:rgb(13,152,186);
+      font-size: 20px;
+      padding-left: 100px;
+      /* padding-top: 20px; */
+    /* }  */

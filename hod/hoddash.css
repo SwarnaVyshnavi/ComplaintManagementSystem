@@ -1,0 +1,76 @@
+body{
+    overflow: hidden;
+    /* background-color: #9FC5CE; */
+    background:linear-gradient(135deg, #002387,#93f4da);
+    font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif; 
+}
+.mainheading{
+    padding-top: 10px;
+    text-align: center;
+}
+.main{
+    background-image: url("./img/Certi.jpg");
+    /* background:linear-gradient(135deg, #002387,#93f4da); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+.profileimg{
+    border-radius: 45%;
+}
+.images{
+    height: 200px;
+    width:220px;
+}
+.first,.second{
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.bar1{
+    padding-top: 00px;
+}
+.bar
+{
+    padding-top: 50px;
+}
+.d-flex {
+    /* background:linear-gradient(135deg, #002387,#93f4da); */
+    background-color: #002387;
+}
+div.col.lg-4{
+    width:50%;
+
+}
+button{
+    border-radius: 5px;
+    width: 200px;
+    height: 30px;
+}
+button:hover{
+    background:linear-gradient(135deg, #002387,#93f4da);
+    color: black;
+    font-size: 18px;
+}
+
+
+.card{
+    height:300px;
+    padding-top: 30px;
+    padding-left: 20px;
+    /* padding-right: 30px; */
+    margin-right: 20px;
+    margin-top: 100px;
+    margin-right: 80px;
+    background-color: #002387;
+    color:azure;
+    
+}
+.count{
+    font-size: 50px;
+    color:yellowgreen;
+    /* padding: 50px; */
+}
+.card-title{
+    font-weight: bold;
+}
